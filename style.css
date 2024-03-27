@@ -1,0 +1,38 @@
+
+/************************ 
+    Basic Css Setup Here
+*************************/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/************************ 
+    Header Part Start
+*************************/
+.header{
+    width: 100%;
+    background-color: #101620;
+    display: flex;
+}
+
+.header-left{
+    width: 30%;
+}
+
+.header-right{
+    width: 70%;
+}
