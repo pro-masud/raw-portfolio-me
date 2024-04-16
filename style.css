@@ -36,6 +36,7 @@ a{
     padding: 10px 15px;
     background-color: #1D2939;
     text-align: center;
+    width: 25%;
 }
 
 .header-left .user h3{
@@ -69,17 +70,12 @@ a{
     gap: 10px;
     margin: 20px 0;
 }
-.header-left .user ul li{
-    width: 60px;
-    max-width: 60px;
-    height: 60%;
-    border-radius: 50%;
-    display: inline-block;
-}
 
 .header-left .user ul li a {
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
     background-color: #6EBD97;
     padding: 8px;
     border-radius: 50%;
@@ -200,11 +196,14 @@ body.dark h1, body.dark .support a {color: #fff;}
     margin: 10px 0;
 }
 
+.header-right{
+    width: 75%;
+}
 .header-right .about-us{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px;
+    padding: 40px;
     gap: 0 30px;
 }
 
@@ -270,28 +269,30 @@ body.dark h1, body.dark .support a {color: #fff;}
     width: 100%;
     border-radius: 8px;
 }
+.port-content{
+    padding: 35px;
+}
 
 .header-right hr{
     height: 1px;
     border: 1px solid #263141;
 }
-
 .blog .blog-img{
-    width: 250px;
-    height: 250px;
+    height: 280px;
 }
 .blog .blog-img img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
-.about-us .fre-img-logo{
+.about .fre-img-logo{
     display: flex;
     gap: 10px;
     height: 30px;
 }
 
-.about-us h5{
+.about h5{
     font-size: 18px;
     line-height: 45px;
     color: #fff;
@@ -300,7 +301,7 @@ body.dark h1, body.dark .support a {color: #fff;}
     font-weight: 600;
 }
 
-.about-us p{
+.about p{
     font-size: 14px;
     text-align: justify;
     line-height: 20px;
@@ -312,14 +313,111 @@ body.dark h1, body.dark .support a {color: #fff;}
     width: 100%;
     height: 630px;
 }
+.protfoli > h2{
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.protfolio .protfolio-warp{
+    margin-top: 20px;
+}
+.protfolio .protfolio-warp .prot-img{
+    height: 220px;
+}
+.protfolio .protfolio-warp .prot-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.protfolio .protfolio-warp .prot-content h5 a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.protfolio .protfolio-warp .prot-content p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    color: #b4b1b1;
+}
+.blog .blog .blog-content h3{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.blog .blog .blog-content p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    color: #b4b1b1;
+}
+.about-me{
+    width: 100%;
+}
+.mobile-menu{
+    margin-top: 40px;
+}
+
+.mobile-menu .nav{
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-menu .nav li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #6EBD97;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mobile-menu .nav li a:hover{
+
+}
+
+.mobile-menu .nav li a i {
+    color: #fff;
+}
+.mobile-menu{
+    display: none;
+}
 
 
-/* @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
+    .header-left{
+        display: none;
+    }
+    .header-right{
+        width: 100%;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
     .header-left{
         display: none;
     }
     .left-menu-container{
         display: none;
     }
-} */
+    .header-right .about-us{
+        flex-direction: column;
+    }
+    .header-right .about-us .user-info,
+    .header-right .about-us .user-photo{
+        width: 100%;
+    }
+}
 
