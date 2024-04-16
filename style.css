@@ -292,7 +292,7 @@ body.dark h1, body.dark .support a {color: #fff;}
 }
 
 .about-us h5{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 45px;
     color: #fff;
     text-transform: capitalize;
@@ -306,6 +306,11 @@ body.dark h1, body.dark .support a {color: #fff;}
     line-height: 20px;
     width: 100%;
     color: #b4b1b1;
+}
+
+.resume iframe{
+    width: 100%;
+    height: 630px;
 }
 
 
