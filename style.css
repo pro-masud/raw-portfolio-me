@@ -415,9 +415,96 @@ body.dark h1, body.dark .support a {color: #fff;}
     .header-right .about-us{
         flex-direction: column;
     }
+    .header-right .about-us .user-info{
+        margin-top: 20px;
+    }
     .header-right .about-us .user-info,
     .header-right .about-us .user-photo{
         width: 100%;
     }
+    .header-right .about-us .user-info .user-btn{
+        text-align: center;
+    }
+    .mobile-menu .nav{
+        align-items: center;
+        justify-content: center;
+    }
+    .header-right .about-us{
+        padding-bottom: 10px;
+    }
 }
-
+@media screen and (max-width: 425px) {
+    .header-right .about-us .user-info h1 {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+    .header-right .about-us .user-info h4 span{
+        font-size: 22px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+    .header-right .about-us .user-info p{
+        font-size: 14px;
+    }
+    .header-right .about-us {
+        padding: 30px 20px;
+    }
+    .header-right .about-us .user-info .user-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-right .about-us .user-info .user-btn a{
+        font-size: 14px;
+    }
+    .mobile-menu .nav {
+        justify-content: space-between;
+        gap: 16px;
+        margin: 0px !important;
+    }
+    .port-content {
+        padding: 20px 10px;
+    }
+    .blog .blog .blog-content{
+        padding: 0px 12px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .header-right .about-us .user-info .user-btn a {
+        padding: 10px 16px;
+    }
+    .mobile-menu .nav {
+        gap: 0px;
+    }
+    .mobile-menu .nav li a {
+        width: 45px;
+        height: 45px;
+    }
+    .header-right .about-us .user-info h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .header-right .about-us .user-info h4 span{
+        font-size: 20px;
+    }
+    .header-right .about-us .user-info p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header-right .about-us .user-info .user-btn a {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+    .mobile-menu .nav li a {
+        width: 40px;
+        height: 40px;
+    }
+    .mobile-menu .nav li a i {
+        font-size: 14px;
+    }
+    .port-content {
+        padding: 10px;
+    }
+}
