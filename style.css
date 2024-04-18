@@ -392,12 +392,50 @@ body.dark h1, body.dark .support a {color: #fff;}
     display: none;
 }
 
-
+.contact .contact-form form label{
+    margin-top: 15px;
+    font-size: 18px;
+}
 .contact .contact-form form input, .contact .contact-form form textarea{
     display: block;
     width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 8px;
+    border: 1px solid #6EBD97;
+    outline: none;
+    background-color: transparent;
 }
 
+.user-f-name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-f-name .user-f{
+    width: 48%;
+}
+.user-f-name .user-l{
+    width: 48%;
+}
+
+.contact .contact-form form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #6EBD97;
+    outline: none;
+    background-color: transparent;
+    margin: 25px auto 0px;
+    color: #fff;
+    transition: .6s;
+}
+.contact .contact-form form button:hover{
+    background-color: #6EBD97;
+    color: #fff;
+}
 
 @media screen and (max-width: 1024px) {
     .header-left{

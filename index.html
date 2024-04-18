@@ -66,9 +66,9 @@
                         experience and functionality. Dedicated to delivering high-quality solutions that exceed expectations while
                         staying abreast of the latest technologies. Committed to contributing effectively to project success and
                         pursuing continual personal growth in the field.</p>
-                    <div class="user-btn">
-                        <a src="#"><i class="fa-solid fa-circle-right"></i>View Portfolio</a>
-                        <a src="#"><i class="fa-solid fa-file"></i>View Resume</a>
+                    <div class="user-btn nav nav-pills" id="pills-tab" role="tablist">
+                        <a class="fw-semibold position-relative" id="portfolio-tab" data-bs-toggle="pill" data-bs-target="#portfolio"  role="tab" aria-controls="portfolio" aria-selected="false"><i class="fa-solid fa-circle-right"></i>View Portfolio</a>
+                        <a class="fw-semibold position-relative" id="resume-tab" data-bs-toggle="pill" data-bs-target="#resume"  role="tab" aria-controls="resume" aria-selected="false" src="#"><i class="fa-solid fa-file"></i>View Resume</a>
                     </div>
                     <div class="mobile-menu">
                         <ul class="nav nav-pills mb-3 border-2" id="pills-tab" role="tablist">
@@ -271,17 +271,21 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="contact-form">
+                                    <h2>Contact Form</h2>
                                     <form action="#">
-                                        <label for="#">First Name</label>
-                                        <input type="text">
+                                        <div class="user-f-name">
+                                            <div class="user-f">
+                                                <label for="#">First Name</label>
+                                                <input type="text">
+                                            </div>
 
-                                        <label for="#">Last Name</label>
-                                        <input type="text">
+                                            <div class="user-l">
+                                                <label for="#">Last Name</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
 
                                         <label for="#">Email</label>
-                                        <input type="text">
-
-                                        <label for="#">Cell</label>
                                         <input type="text">
 
                                         <label for="#">Message</label>
