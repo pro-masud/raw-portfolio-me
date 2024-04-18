@@ -406,7 +406,9 @@ body.dark h1, body.dark .support a {color: #fff;}
     outline: none;
     background-color: transparent;
 }
-
+.contact .contact-form form textarea{
+    height: 120px;
+}
 .user-f-name{
     width: 100%;
     display: flex;
@@ -441,16 +443,44 @@ body.dark h1, body.dark .support a {color: #fff;}
 }
 .contact-details .meet-up-top{
     height: 50%;
-    background-color: #fff;
-    padding: 30px;
+    background-color: transparent;
+    padding: 40px;
+    border: 1px solid #6EBD97;
+    border-radius: 10px;
 }
 .contact-details .meet-up-top h2{
-    color: #333;
+    color: #fff;
+}
+.contact-details .meet-up-top .ct-address{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.contact-details .meet-up-top .ct-address a{
+    color: #fff;
+}
+.contact-details .meet-up-top .ct-address a i{
+    color: #6EBD97;
+    margin-right: 10px;
 }
 .contact-details .meet-up-buttom{
     height: 50%;
-    background-color: #EAEAEA;
-    padding: 30px;
+    background-color: transparent;
+    padding: 40px;
+    border: 1px solid #6EBD97;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.contact-details p {
+    margin: 30px 0 0;
+}
+.contact-details p span{
+    background-color: #6EBD97;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px 20px 6px 6px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -491,6 +521,23 @@ body.dark h1, body.dark .support a {color: #fff;}
     .header-right .about-us{
         padding-bottom: 10px;
     }
+    .user-f-name {
+        flex-direction: column;
+    }
+    .user-f-name .user-f{
+        width: 100%;
+    }
+    .user-f-name .user-l{
+        width: 100%;
+    }
+    .contact-details .meet-up-top {
+        padding: 25px;
+        height: auto;
+    }
+    .contact-details .meet-up-buttom {
+        padding: 25px;
+        height: auto;
+    }
 }
 @media screen and (max-width: 425px) {
     .header-right .about-us .user-info h1 {
@@ -527,6 +574,9 @@ body.dark h1, body.dark .support a {color: #fff;}
     }
     .blog .blog .blog-content{
         padding: 0px 12px;
+    }
+    .contact-form{
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 375px) {

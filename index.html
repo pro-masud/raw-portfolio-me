@@ -77,7 +77,7 @@
                             <li><a class="fw-semibold position-relative" id="service-tab" data-bs-toggle="pill" data-bs-target="#service"  role="tab" aria-controls="service" aria-selected="false"><i class="fa-solid fa-briefcase"></i></a></li>
                             <li><a class="fw-semibold position-relative" id="resume-tab" data-bs-toggle="pill" data-bs-target="#resume"  role="tab" aria-controls="resume" aria-selected="false"><i class="fa-solid fa-file"></i></a></li>
                             <li><a class="fw-semibold position-relative" id="blog-tab" data-bs-toggle="pill" data-bs-target="#blog"  role="tab" aria-controls="blog" aria-selected="false"><i class="fa-solid fa-blog"></i></a></li>
-                            <li><a class="fw-semibold position-relative" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-inbox"></i></a></li>
+                            <li><a class="fw-semibold position-relative" id="contact-tab" data-bs-toggle="pill" data-bs-target="#contact"  role="tab" aria-controls="contact" aria-selected="false"><i class="fa-solid fa-inbox"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -269,7 +269,7 @@
                     </div>
                     <div class="tab-pane fade contact" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 order-sm-2 order-lg-1">
                                 <div class="contact-form">
                                     <h2>Contact Form</h2>
                                     <form action="#">
@@ -288,6 +288,9 @@
                                         <label for="#">Email</label>
                                         <input type="text">
 
+                                        <label for="#">Cell</label>
+                                        <input type="text">
+
                                         <label for="#">Message</label>
                                         <Textarea></Textarea>
 
@@ -295,17 +298,19 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 order-first order-sm-last order-sm-1 order-lg-2">
                                 <div class="contact-details">
                                     <div class="meet-up-top">
                                         <h2>Meet Me</h2>
-                                        <a href="#">+8801797562295</a>
-                                        <a href="#">promasud@gmail.com</a>
-                                        <a href="#">Mirput-10, Dhaka, Bangladesh</a>
+                                        <div class="ct-address">
+                                            <a href="#"><i class="fa-solid fa-address-card"></i> +8801797562295</a>
+                                            <a href="#"><i class="fa-solid fa-address-card"></i> promasud@gmail.com</a>
+                                            <a href="#"><i class="fa-solid fa-address-card"></i> Mirput-10, Dhaka, Bangladesh</a>
+                                        </div>
                                     </div>
                                     <div class="meet-up-buttom">
                                         <h2>Pitch Us</h2>
-                                        <p>Hello</p>
+                                        <p><span>Hello !</span></p>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam amet omnis quis rem!</p>
                                     </div>
                                 </div>
