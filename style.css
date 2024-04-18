@@ -436,6 +436,22 @@ body.dark h1, body.dark .support a {color: #fff;}
     background-color: #6EBD97;
     color: #fff;
 }
+.contact-details{
+    height: 100%;
+}
+.contact-details .meet-up-top{
+    height: 50%;
+    background-color: #fff;
+    padding: 30px;
+}
+.contact-details .meet-up-top h2{
+    color: #333;
+}
+.contact-details .meet-up-buttom{
+    height: 50%;
+    background-color: #EAEAEA;
+    padding: 30px;
+}
 
 @media screen and (max-width: 1024px) {
     .header-left{
