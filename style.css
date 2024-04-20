@@ -577,6 +577,8 @@ body.dark h1, body.dark .support a {color: #fff;}
     }
     .contact-form{
         margin-top: 30px;
+        display: flex;
+        align-items-center: center;
     }
 }
 @media screen and (max-width: 375px) {
