@@ -340,6 +340,7 @@ body.dark .support a {
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
+  border: 1px solid #fff;
 }
 .protfolio .protfolio-warp .prot-content h5 a {
   color: #fff;
